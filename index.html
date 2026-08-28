@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/tw.png" type="icon/png">
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="img/x.png" alt="logo de twitter">
+
+        <div class="card">
+            <img src="./img/marvin.webp" alt="Dueño del blog">
+            <div class="card-names">
+                <p>Marvin Asencio.</p>
+            </div>
+        </div>
+
+        <h3>¿Qué estás pensando?</h3>
+
+        <div class="tweet-input">
+
+            <input type="text" required placeholder="Escribe algo..." id="tweet">
+        </div>
+
+        <div class="tweet-output">
+            <button onclick="publicar()">Publicar</button>
+        </div>
+
+        <h3>Mis tweets</h3>
+
+        <div class="tweets-container" id="tweets">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
